@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+		<title> The Doughnut Company - Order page </title>
+		<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+	</head>
+	
+	<body style="">
+
+	<div id="header">
+		<a href="Shop.xhtml">
+			<h1 class="head">Big O Doughnuts</h1>
+		</a>
+	</div>
+	<div id="main">
+	
+		<div id="NavBar">
+		
+				<ul>
+					<a href="Shop.xhtml">	
+						<li>Classic Shop</li>
+					</a>
+					
+					<a href="New2017Collection.xhtml">
+					<li>New 2017 Collection</li>
+					</a>
+					
+					<a href="WeddingCollection.xhtml">
+					<li>Wedding Collection</li>
+					</a>
+					
+					<a href="Delivery.xhtml">
+					<li>Delivery</li>
+					</a>
+					
+					<a href="AboutUs.xhtml">
+					<li>About Us</li>
+					</a>
+				</ul>	
+		</div>
+		
+<form action="confirmationpage.xhtml" method="POST"><!-- Placeholder confirmationpage changed to xhtml -->
+
+ 
+ <fieldset id="information"><!--This tag makes it look pretty good, I think. Can also just use <div> -->
+    <legend><h3>Personal information:</h3></legend>
+
+ <p>First Name:
+<input type="text" name="firstname" placeholder="Don uttte" required="required" /></p> <!--Decided to use <p> instead of <br> because formatting better done in CSS-->
+
+ <p>Family Name:
+ <input type="text" name="familyname" required="required" /></p>
+ <p>Email Address:
+ <input type="email" name="email" required="required" /></p>
+
+ <p>Mobile Number:
+ <input type="text" name="mobilenumber" required="required" /></p>
+</fieldset>
+
+<fieldset id="donuts">
+ <legend><h3>Your Order</h3></legend>
+	<p> <input type="checkbox" name="donut1" value="donut1"/> Donut1 Quantity:<select name="quantity1"><!--we can make this reveal only if checkbox checked -->
+  <option value="volvo">1x</option>
+  <option value="saab">3x</option>
+  <option value="fiat">6x</option>
+  <option value="audi">12x</option>
+</select></p> <!--Still to add quantity - again <p> tags used-->
+	<input type="checkbox" name="donut2" value="donut2"/> Donut2
+</fieldset>
+<fieldset id="address">
+ <legend><h3>Delivery Location</h3></legend>
+
+ <p>Address line 1:
+ <input type="text" name="addressline1" required="required" /></p>
+
+ <p> Address line 2:
+ <input type="text" name="addressline2" /></p>
+
+ <p>City:
+ <input type="text" name="city" placeholder="Edinburgh/Glasgow" required="required"/></p>
+
+ <p>Postcode:
+ <input type="text" name="postcode" required="required"/></p>
+ </fieldset>
+ <input type="submit" name="submit" value="submit" />
+  <input type="reset" name="reset" value="reset" />
+</form>
+</div>
+	</body>
+	</html>
