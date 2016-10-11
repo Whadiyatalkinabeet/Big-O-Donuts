@@ -11,13 +11,14 @@
 			<h1 class="head">Big O Doughnuts</h1>
 		</a>
 	</div>
-	
 	<div id="main">
+	
+	
 		<div id="NavBar">
 		
 				<ul>
 					<a href="Shop.xhtml">	
-						<li>Main Shop</li>
+						<li>Classic Shop</li>
 					</a>
 					
 					<a href="New2017Collection.xhtml">
@@ -38,45 +39,46 @@
 				</ul>	
 		</div>
 		
-		<h1 style="text-align:center;">"Making you O since 1789"</h1>
+		<p>"Making you O since 1789"</p>
 		<img id="home" src="home.jpg"/>
 		
-		<table class="reflow">
+		
+
+		
+		<table>
 			<tbody>
 				<tr>
-				
 					<td>
-						<a href="Classic.xhtml">
-							<span>Classic</span>
-							<p>The finest selection of our original recipe nuts.</p>
-							<img class="reflow" src="krispy-kreme-donuts.jpg"/>
-						</a>
+					<a href="Classic.xhtml">
+						<span>Classic</span>
+						<p>The finest selection of our original recipe nuts.</p>
+						<img class="reflow" src="krispy-kreme-donuts.jpg"/>
+					</a>
+					</td>
+					<td>
+						<span>Filled</span>
+						<p>The finest selection of our succulent filled nuts.</p>
+						<img class="reflow" src="filled.jpg"/>
 					</td>
 					
 					<td>
-						<a href="Filled.xhtml">
-							<span>Filled</span>
-							<p>The finest selection of our succulent filled nuts.</p>
-							<img class="reflow" src="filled.jpg"/>
-						</a>
+						<span>Gourmet</span>
+						<p>For the finest doughnut conosieur. Luxury nuts.</p>
+						<img class="reflow" src="gourmet.jpg"/>
 					</td>
-					
 					<td>
-						<a href ="Gourmet.xhtml">
-							<span>Gourmet</span>
-							<p>The finest selection of our special designer nuts.</p>
-							<img class="reflow" src="gourmet.jpg"/>
-						</a>
-					</td>
-					
-					<td>
-							<span>Custom Made</span>
-							<p>Whatever your heart desires. Anything for you    </p>
-							<img class="reflow" src="Lord.jpg"/>
+						<span>Custom Made</span>
+						<p>All that you want is all that we need.</p>
+						<img class="reflow" src="Lord.jpg"/>
 					</td>
 				</tr>
 			</tbody>
 		</table>
+	
 	</div>
-</body>
+	
+		
+	
+	
+	</body>
 </html>
