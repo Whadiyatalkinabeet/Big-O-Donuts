@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
 <head>
 		<title> The Doughnut Company - Order page </title>
 		<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
@@ -39,7 +40,7 @@
 				</ul>	
 		</div>
 		
-<form action="confirmationpage.xhtml" method="POST"><!-- Placeholder confirmationpage changed to xhtml -->
+<form name="OrderForm" action="confirmationpage.xhtml" method="POST"><!-- Placeholder confirmationpage changed to xhtml -->
 
  
  <fieldset id="information"><!--This tag makes it look pretty good, I think. Can also just use <div> -->
@@ -54,7 +55,7 @@
  <input type="email" name="email" required="required" /></p>
 
  <p>Mobile Number:
- <input type="text" name="mobilenumber" required="required" /></p>
+ <input id="mobileNumber" type="number" name="mobilenumber" minlength="11" required="required" /></p>
 </fieldset>
 
 <fieldset id="donuts">
@@ -87,4 +88,5 @@
 </form>
 </div>
 	</body>
+
 	</html>
