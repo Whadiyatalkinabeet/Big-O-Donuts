@@ -67,7 +67,7 @@ input {
 #main {
 	background-color: #E5E4E2;
 	width: 75%;
-	height: 1000px;
+	height: 100%;
 	margin: auto;
 	border-radius: 10px;
 }
@@ -115,7 +115,8 @@ span {
 ul {
 	list-style-type: none;
 	text-align: center;
-	
+	margin: 0;
+	padding: 0;
 }
 
 li {
@@ -124,11 +125,19 @@ li {
 	color: black;
 	background-color: white;
 	border-radius: 5px 5px;
-	width: 15%;
-	padding: 0.5%;
-	
 	
 }
+
+#details {
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	border-radius: 5px 5px;
+	width: 60%;
+	margin: auto;
+	font-size: 24px;
+}
+
 
 a:hover {
 	text-decoration: none;
